@@ -6,10 +6,14 @@
   "author": "Rajesh Naroth",
   "license": "MIT",
   "dependencies": {
-    "expect": "^22.4.0",
     "ramda": "^0.25.0"
   },
-  "scripts":{
-    "start": "node index.js"
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "nodemon": "^1.17.1"
   }
 }
