@@ -1,5 +1,5 @@
 const R = require('ramda')
-const pigLatin = require('./piglatin').pigLatin
+const pigLatin = require('./piglatin/piglatin').pigLatin
 const log = (vals) => (console.log(vals), vals)
 const pigLatinPrint = R.pipe(pigLatin, log)
 
